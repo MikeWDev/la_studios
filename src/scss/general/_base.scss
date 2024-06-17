@@ -1,0 +1,55 @@
+@use "../general/" as g;
+@font-face {
+  font-family: KeplerStd;
+  src: url("/public/keplerstd-bold.otf");
+}
+@font-face {
+  font-family: Guru;
+  src: url("/public/guru-regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+}
+html {
+  overflow-x: hidden;
+}
+h1 {
+  font-family: KeplerStd, sans-serif;
+  font-size: 12.8rem;
+}
+h2 {
+  font-family: KeplerStd, sans-serif;
+  font-size: 6.4rem;
+}
+h3 {
+  font-family: KeplerStd, sans-serif;
+  font-size: 5.2rem;
+}
+p {
+  font-size: 2rem;
+  font-family: Guru, sans-serif;
+}
+body {
+  background-color: g.$bgColor;
+  overflow: hidden;
+  font-family: Guru, sans-serif;
+  color: g.$brightFont;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-size: KeplerStd, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
