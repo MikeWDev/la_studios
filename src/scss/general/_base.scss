@@ -1,12 +1,4 @@
 @use "../general/" as g;
-@font-face {
-  font-family: KeplerStd;
-  src: url("/public/keplerstd-bold.otf");
-}
-@font-face {
-  font-family: Guru;
-  src: url("/public/guru-regular.otf");
-}
 
 * {
   padding: 0;
@@ -16,37 +8,42 @@
 }
 html {
   overflow-x: hidden;
+  font-size: 56%;
 }
 h1 {
-  font-family: KeplerStd, sans-serif;
+  font-family: keplerStd;
   font-size: 12.8rem;
 }
 h2 {
-  font-family: KeplerStd, sans-serif;
+  font-family: keplerStd;
   font-size: 6.4rem;
 }
 h3 {
-  font-family: KeplerStd, sans-serif;
+  font-family: keplerStd;
   font-size: 5.2rem;
 }
 p {
   font-size: 2rem;
-  font-family: Guru, sans-serif;
+  font-family: Guru;
 }
 body {
   background-color: g.$bgColor;
   overflow: hidden;
-  font-family: Guru, sans-serif;
+  font-family: guru;
   color: g.$brightFont;
 }
 ul {
   padding: 0;
   list-style-type: none;
 }
+li {
+  font-size: 2.8rem;
+  font-family: KeplerStd;
+}
 a {
   text-decoration: none;
   font-size: 2.4rem;
-  font-size: KeplerStd, sans-serif;
+  font-size: KeplerStd;
 }
 .container {
   width: 100%;
