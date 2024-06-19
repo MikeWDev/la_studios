@@ -1,0 +1,27 @@
+@use "../general/" as g;
+.best-shots {
+  display: flex;
+  flex-direction: column;
+  color: g.$darkFont;
+  text-align: center;
+  gap: 6.4rem;
+  .heading-con {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  p {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: keplerStd;
+  }
+  .slider-container {
+    height: 50rem;
+    .carousell-arrows {
+      margin-top: 3.2rem;
+    }
+  }
+}

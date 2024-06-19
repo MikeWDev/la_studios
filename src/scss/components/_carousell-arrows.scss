@@ -1,0 +1,16 @@
+@use "../general/" as g;
+.carousell-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  p {
+    font-size: 2.4rem;
+  }
+  span {
+    height: 1px;
+    width: 4rem;
+    background-color: g.$darkFont;
+  }
+}

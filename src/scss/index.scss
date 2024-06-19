@@ -2,6 +2,11 @@
 @use "./general/base";
 //PAGES
 @use "./pages/home-page";
+@use "./pages/bestshots-page";
 //Componets
 @use "./components/nav-bar.scss";
 @use "./components/button";
+@use "./components/linebreak";
+@use "./components/bestshots-card.scss";
+@use "./components/slick-carousell";
+@use "./components/carousell-arrows";
