@@ -1,9 +1,7 @@
 @use "../general/" as g;
 .btn {
   width: fit-content;
-  background-color: transparent;
   padding: 2rem;
-  border: solid g.$brightFont 4px;
   border-radius: 50px;
   text-transform: uppercase;
   font-size: 2rem;
@@ -11,8 +9,23 @@
   font-weight: bold;
   transition: 200ms ease-in all;
   cursor: pointer;
-  &:hover {
-    background-color: g.$brightFont;
+  background-color: transparent;
+  &.bright {
+    border: solid g.$brightFont 4px;
+
+    &:hover {
+      color: g.$darkFont;
+      background-color: g.$brightFont;
+    }
+  }
+  &.dark {
+    border: solid g.$darkFont 3px;
     color: g.$darkFont;
+    text-transform: capitalize;
+    &:hover {
+      border: solid g.$brightFont 3px;
+      color: g.$brightFont;
+      background-color: g.$darkFont;
+    }
   }
 }

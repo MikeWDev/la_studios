@@ -1,7 +1,8 @@
+import { buttonProps } from "@/types";
 import React from "react";
 
-const Button = () => {
-  return <button className="btn">book your shoot now</button>;
+const Button = ({ text, type }: buttonProps) => {
+  return <button className={`${type} btn`}>{text}</button>;
 };
 
 export default Button;

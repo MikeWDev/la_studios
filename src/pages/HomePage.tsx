@@ -14,7 +14,7 @@ const HomePage = () => {
               <h1>lanre ayilegbe</h1>
               <span>studios</span>
               <div className="btn-con">
-                <Button />
+                <Button text="order your shoot now" type="bright" />
               </div>
             </div>
           </div>
