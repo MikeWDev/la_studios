@@ -1,0 +1,37 @@
+@use "../general/" as g;
+.service-card {
+  height: 50rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.236);
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 300ms ease-in-out all;
+
+  &:hover {
+    background-color: transparent;
+    img {
+      transition: 300ms ease-in-out all;
+      transform: scale(1.2);
+    }
+  }
+  img {
+    z-index: -1;
+    transition: 300ms ease-in-out all;
+  }
+  span {
+    font-size: 3.6rem;
+    text-transform: capitalize;
+    font-family: keplerStd;
+    padding: 2rem;
+    border: solid 3px g.$brightFont;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+}

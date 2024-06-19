@@ -1,0 +1,21 @@
+@use "../general/" as g;
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  justify-content: center;
+
+  .heading {
+    color: g.$darkFont;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3.2rem;
+  }
+  .services-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 0;
+    padding: 0 12.6rem;
+  }
+}

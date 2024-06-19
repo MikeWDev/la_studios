@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import HomePage from "@/pages/HomePage";
 import BestShotsPage from "@/pages/BestShotsPage";
 import AboutPage from "@/pages/AboutPage";
+import ServicesPage from "@/pages/ServicesPage";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HomePage />
       <BestShotsPage />
       <AboutPage />
+      <ServicesPage />
     </main>
   );
 }

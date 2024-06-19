@@ -4,10 +4,12 @@
 @use "./pages/home-page";
 @use "./pages/bestshots-page";
 @use "./pages/about-page";
+@use "./pages/services-page";
 //Componets
 @use "./components/nav-bar.scss";
 @use "./components/button";
 @use "./components/linebreak";
 @use "./components/bestshots-card.scss";
 @use "./components/slick-carousell";
+@use "./components/services-card";
 @use "./components/carousell-arrows";
