@@ -1,0 +1,32 @@
+@use "../general" as g;
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .client-name {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    span {
+      width: 5rem;
+      height: 2px;
+      background-color: g.$darkFont;
+    }
+    p {
+      color: g.$darkFont;
+      font-weight: 600;
+    }
+  }
+  .client-review {
+    p {
+      color: g.$darkFont;
+      text-align: center;
+    }
+  }
+}

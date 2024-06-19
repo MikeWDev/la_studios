@@ -4,6 +4,7 @@ import HomePage from "@/pages/HomePage";
 import BestShotsPage from "@/pages/BestShotsPage";
 import AboutPage from "@/pages/AboutPage";
 import ServicesPage from "@/pages/ServicesPage";
+import ReviewsPage from "@/pages/ReviewsPage";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <BestShotsPage />
       <AboutPage />
       <ServicesPage />
+      <ReviewsPage />
     </main>
   );
 }

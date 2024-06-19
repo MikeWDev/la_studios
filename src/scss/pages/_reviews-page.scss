@@ -1,0 +1,25 @@
+@use "../general/" as g;
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 12.6rem;
+  .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    padding-left: 2.4rem;
+    span {
+      width: 10rem;
+      height: 2px;
+      background-color: g.$darkFont;
+    }
+    h2 {
+      text-transform: uppercase;
+      color: g.$darkFont;
+    }
+  }
+  .linebreak-con {
+    flex-direction: column-reverse;
+  }
+}

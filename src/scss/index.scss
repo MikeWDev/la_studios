@@ -5,6 +5,7 @@
 @use "./pages/bestshots-page";
 @use "./pages/about-page";
 @use "./pages/services-page";
+@use "./pages/reviews-page";
 //Componets
 @use "./components/nav-bar.scss";
 @use "./components/button";
@@ -13,3 +14,4 @@
 @use "./components/slick-carousell";
 @use "./components/services-card";
 @use "./components/carousell-arrows";
+@use "./components/review-card";
