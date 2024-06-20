@@ -1,0 +1,49 @@
+@use "../general/" as g;
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8.6rem;
+  .heading {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: g.$darkFont;
+  }
+  .content-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7.2rem;
+    .text-con {
+      display: flex;
+      flex-direction: column;
+      gap: 3.6rem;
+
+      .socials {
+        margin-left: 2rem;
+        svg {
+          fill: g.$darkFont;
+        }
+      }
+      .contact-info {
+        color: g.$darkFont;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h3 {
+          text-transform: capitalize;
+        }
+        p {
+          line-height: 23px;
+        }
+      }
+      .slogan {
+        h3 {
+          color: g.$darkFont;
+        }
+      }
+    }
+  }
+}

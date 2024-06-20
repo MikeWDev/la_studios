@@ -1,5 +1,6 @@
 import Linebreak from "@/components/Linebreak";
 import ReviewCarousell from "@/components/ReviewCarousell";
+import TextLine from "@/components/TextLine";
 import React from "react";
 
 const ReviewsPage = () => {
@@ -7,7 +8,7 @@ const ReviewsPage = () => {
     <section>
       <div className="container reviews">
         <div className="heading">
-          <span />
+          <TextLine />
           <h2> my clients say</h2>
         </div>
         <div className="reviews-con">

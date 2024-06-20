@@ -1,7 +1,7 @@
-import { FacebookLogo, InstagramLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import React from "react";
 import logo from "../../public/LOGO.png";
+import Socials from "./Socials";
 const Navbar = () => {
   return (
     <div className="nav-container">
@@ -9,10 +9,7 @@ const Navbar = () => {
         <Image alt="photographers logo" src={logo} />
       </div>
       <nav>
-        <div className="socials">
-          <InstagramLogo size={32} />
-          <FacebookLogo size={32} />
-        </div>
+        <Socials />
         <ul>
           <li>home</li>
           <li>about me</li>

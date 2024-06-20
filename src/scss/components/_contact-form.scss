@@ -1,0 +1,48 @@
+@use "../general/" as g;
+.contact {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    .contact-input {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        color: g.$darkFont;
+        font-weight: bold;
+        font-family: keplerStd;
+      }
+      input,
+      select {
+        background-color: transparent;
+        border-style: none;
+        border: 1px solid g.$darkFont;
+        padding: 0.8rem;
+        color: g.$darkFont;
+        appearance: none;
+        outline: none;
+        cursor: pointer;
+        background-color: g.$bgColor;
+        border: 1px solid g.$darkFont;
+        border-radius: none;
+      }
+      select {
+      }
+      textarea {
+        background-color: transparent;
+        border-style: none;
+        border: 1px solid g.$darkFont;
+        padding: 0.8rem;
+        color: g.$darkFont;
+      }
+    }
+    .name-inputs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  }
+}

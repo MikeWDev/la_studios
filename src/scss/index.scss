@@ -6,6 +6,7 @@
 @use "./pages/about-page";
 @use "./pages/services-page";
 @use "./pages/reviews-page";
+@use "./pages/contact-page";
 //Componets
 @use "./components/nav-bar.scss";
 @use "./components/button";
@@ -14,4 +15,8 @@
 @use "./components/slick-carousell";
 @use "./components/services-card";
 @use "./components/carousell-arrows";
+@use "./components/textline";
 @use "./components/review-card";
+@use "./components/socials";
+@use "./components/contact-form";
+@use "./components/footer";

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../scss/index.scss";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${keplerStd.className} ${guru.className}`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

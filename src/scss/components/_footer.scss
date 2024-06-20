@@ -1,0 +1,69 @@
+@use "../general/" as g;
+.footer-section {
+  border-top: solid 1px g.$darkFont;
+  margin-bottom: 1rem;
+  padding-top: 4.8rem;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12.4rem;
+
+  .content-con {
+    display: flex;
+    flex-direction: column;
+    gap: 5.4rem;
+    .socials-con {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        fill: g.$darkFont;
+      }
+    }
+    .logo-con {
+      display: flex;
+      align-items: center;
+      gap: 3.2rem;
+      justify-content: center;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 2.4rem;
+        color: g.$darkFont;
+        font-weight: bold;
+        font-family: keplerStd;
+        li {
+          padding-right: 2rem;
+          position: relative;
+          cursor: pointer;
+
+          &:hover {
+            span {
+              transform: rotate(90deg);
+              transition: 300ms all ease-in-out;
+              right: 80%;
+              bottom: -70%;
+            }
+          }
+          span {
+            transition: 300ms all ease-in-out;
+            position: absolute;
+            right: 0;
+            transform: translate(50%, -50%);
+            top: 50%;
+          }
+        }
+      }
+    }
+  }
+  .copyright-con {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    color: g.$darkFont;
+  }
+}

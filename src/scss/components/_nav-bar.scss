@@ -13,17 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 2rem;
-    .socials {
-      display: flex;
-      gap: 2rem;
-      svg {
-        cursor: pointer;
-        transition: 300ms all ease-in-out;
-        &:hover {
-          transform: scale(1.2);
-        }
-      }
-    }
+
     ul {
       margin-left: 7rem;
       display: flex;

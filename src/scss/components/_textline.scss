@@ -1,0 +1,6 @@
+@use "../general/" as g;
+.text-line {
+  width: 100px;
+  height: 1px;
+  background-color: g.$darkFont;
+}
