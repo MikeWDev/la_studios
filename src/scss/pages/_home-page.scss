@@ -46,3 +46,66 @@
     }
   }
 }
+
+@media (max-width: 1100px) {
+  .home-section {
+    .container {
+      .content-container {
+        .slogans-con {
+          text-align: center;
+          h1 {
+            font-size: 9.6rem;
+          }
+          span {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 610px) {
+  .home-section {
+    .container {
+      .content-container {
+        .slogans-con {
+          text-align: center;
+          h1 {
+            font-size: 8.2rem;
+          }
+          span {
+            font-size: 2.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 440px) {
+  .home-section {
+    .container {
+      .content-container {
+        .slogans-con {
+          text-align: center;
+          h1 {
+            font-size: 6.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .home-section {
+    .container {
+      .content-container {
+        .slogans-con {
+          text-align: center;
+          h1 {
+            font-size: 5.8rem;
+          }
+        }
+      }
+    }
+  }
+}

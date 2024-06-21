@@ -11,10 +11,10 @@
   }
   .client-name {
     display: flex;
-    gap: 2.4rem;
+    gap: 1.6rem;
     align-items: center;
     span {
-      width: 5rem;
+      width: 4rem;
       height: 2px;
       background-color: g.$darkFont;
     }
@@ -27,6 +27,7 @@
     p {
       color: g.$darkFont;
       text-align: center;
+      padding: 0 2.4rem;
     }
   }
 }

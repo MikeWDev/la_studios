@@ -29,8 +29,6 @@
         border: 1px solid g.$darkFont;
         border-radius: none;
       }
-      select {
-      }
       textarea {
         background-color: transparent;
         border-style: none;
@@ -43,6 +41,15 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .contact {
+    form {
+      .name-inputs {
+        grid-template-columns: 1fr;
+      }
     }
   }
 }

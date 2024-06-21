@@ -1,10 +1,12 @@
 @use "../general/" as g;
 .bs-card {
   display: flex;
-  width: 40rem;
-
+  width: 32rem;
+  margin: auto;
+  position: relative;
   height: 50rem;
   .date-con {
+    position: absolute;
     font-size: 2.4rem;
     font-family: keplerStd;
     font-weight: bold;
@@ -12,10 +14,10 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    width: fit-content;
-    margin-right: -30px;
-    margin-top: -80px;
     transform: rotate(270deg);
+    right: 85%;
+    top: 50%;
+
     span::after {
       content: "";
       height: 2px;

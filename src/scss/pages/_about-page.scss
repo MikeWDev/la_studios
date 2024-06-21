@@ -26,6 +26,7 @@
         text-align: center;
       }
       p {
+        font-size: 2.2rem;
         padding: 0 5.2rem;
       }
     }
@@ -40,5 +41,59 @@
   }
   button {
     margin-top: -3rem;
+  }
+}
+@media (max-width: 920px) {
+  .about {
+    .sentence {
+    }
+    span {
+    }
+    .content-container {
+      gap: 0;
+      .text-container {
+        p {
+          padding-right: 0;
+        }
+      }
+      .img-container {
+      }
+    }
+  }
+}
+@media (max-width: 720px) {
+  .about {
+    align-items: center;
+    justify-content: center;
+
+    .content-container {
+      text-align: center;
+      grid-template-columns: 1fr;
+      gap: 2.6rem;
+      .text-container {
+        width: 100%;
+        p {
+          padding: 0 5.2rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    align-items: center;
+    justify-content: center;
+
+    .content-container {
+      text-align: center;
+      grid-template-columns: 1fr;
+      gap: 2.6rem;
+      .text-container {
+        width: 100%;
+        p {
+          padding: 0 2.2rem;
+        }
+      }
+    }
   }
 }

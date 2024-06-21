@@ -47,3 +47,59 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .contact {
+    .content-con {
+      margin: 0 3.2rem;
+    }
+  }
+}
+@media (max-width: 1040px) {
+  .contact {
+    .content-con {
+      gap: 3.2rem;
+      .text-con {
+        .socials {
+          justify-content: center;
+        }
+        .slogan {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .contact {
+    .content-con {
+      grid-template-columns: 1fr;
+      padding: 0 6rem;
+      .text-con {
+        .contact-info {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+  .contact {
+    .content-con {
+      padding: 0 3.2rem;
+    }
+  }
+}
+@media (max-width: 570px) {
+  .contact {
+    .heading {
+      flex-direction: column;
+      h2 {
+        text-align: center;
+      }
+    }
+    .content-con {
+      padding: 0;
+      margin: 2.4rem;
+    }
+  }
+}

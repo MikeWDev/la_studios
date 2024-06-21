@@ -23,3 +23,32 @@
     flex-direction: column-reverse;
   }
 }
+@media (max-width: 830px) {
+  .reviews {
+    .heading {
+      justify-content: center;
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 515px) {
+  .reviews {
+    .heading {
+      h2 {
+        font-size: 5.2rem;
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width: 415px) {
+  .reviews {
+    .heading {
+      h2 {
+        font-size: 4.6rem;
+        text-align: center;
+      }
+    }
+  }
+}

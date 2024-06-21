@@ -5,13 +5,27 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import BestShotsImageCard from "@/components/BestShotsImageCard";
 const BestShotsCarousell = () => {
-  const setting = {
+  var setting = {
     arrows: false,
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 830,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <>

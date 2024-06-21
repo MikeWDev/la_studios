@@ -2,6 +2,7 @@ import React from "react";
 import Socials from "./Socials";
 import TextLine from "./TextLine";
 import Image from "next/image";
+import FooterNav from "./FooterNav";
 
 const Footer = () => {
   return (
@@ -21,26 +22,7 @@ const Footer = () => {
             />
             <TextLine />
           </div>
-          <nav>
-            <ul>
-              <li className="footer-link">
-                home <span>|</span>
-              </li>
-
-              <li className="footer-link">
-                gallery <span>|</span>
-              </li>
-
-              <li className="footer-link">
-                blog <span>|</span>
-              </li>
-
-              <li className="footer-link">
-                contact
-                <span>|</span>
-              </li>
-            </ul>
-          </nav>
+          <FooterNav />
         </div>
         <div className="copyright-con">
           <p>Copyright © 2024 Lanre Ailegbe. All rights reserved</p>
